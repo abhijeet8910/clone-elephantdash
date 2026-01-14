@@ -19,7 +19,7 @@ const Navbar = () => {
             <div>
                <img src="https://rococo-otter-c41eee.netlify.app/assets/main1-I0zVaenq.png" alt="logo" className="h-12"/>
             </div>
-            <div className="hidden lg:flex space-x-6">
+            <div className="hidden lg:flex space-x-5">
                 {navItems.map((item) => (
                     <a key={item.path} className="text-sm font-medium transition-colors py-2 text-cyan-900 hover:text-cyan-900">
                        {item.name} 
