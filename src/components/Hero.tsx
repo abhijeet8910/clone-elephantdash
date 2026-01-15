@@ -54,7 +54,8 @@ const Hero = () => {
   return (
     <section className="bg-linear-to-br from-slate-900 via-blue-900 to-slate-900 px-6 py-20">
         <main className="relative z-10 max-w-7xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 ">
-            <div className="text-white">
+            <div className="text-white font-sans">
+                <div className="inline-flex items-center gap-2 mb-6 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-400/30 text-sm font-medium text-blue-300 backdrop-blur-md shadow-lg">Premium developement services</div>
                 <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-8">
                Build Digital
                <span className="inline-block text-transparent bg-clip-text bg-linear-to-r from-teal-400 via-cyan-400 to-blue-400">
