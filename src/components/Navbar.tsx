@@ -15,8 +15,8 @@ const navItems = [
 const Navbar = () => {
     const[isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <header className="w-full bg-gray-100/95 backdrop-blur-2xl border-b border-cyan-400/20 shadow-lg z-50 fixed top-0">
-        <nav className="flex items-center justify-between px-8 lg:justify-evenly  h-20 ">
+    <header className="w-full bg-gray-100/95 backdrop-blur-2xl border-b border-cyan-400/20 shadow-lg z-50 fixed top-0 ">
+        <nav className="flex items-center justify-between px-8 py-6 h-20 max-w-7xl mx-auto ">
             <div>
                <img src="https://rococo-otter-c41eee.netlify.app/assets/main1-I0zVaenq.png" alt="logo" className="h-12"/>
             </div>

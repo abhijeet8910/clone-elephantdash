@@ -84,9 +84,9 @@ const Hero = () => {
                 </div>
            
             </div>
-            <div className="grid gap-4 sm:grid-cols-2 py-20 ">
+            <div className="grid gap-4 lg:grid-cols-2 py-20 ">
                 {cardDetails.map((item) => (
-                    <Card logo={<item.logo/>} title={item.title} description={item.description} key={item.id}/>
+                    <Card logo={<item.logo/>} title={item.title} description={item.description} key={item.id} />
                 ))}
 
             </div>
