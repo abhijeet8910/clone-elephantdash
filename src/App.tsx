@@ -4,6 +4,7 @@ import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
 import Partners from "./components/Partners"
 import Video from "./components/Video"
+import { VideoScrollSection } from "./components/VideoScrollSection"
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
    <Hero/>
    <Partners/>
    <Video/>
+   <VideoScrollSection/>
    <Features/>
      </>
   )
